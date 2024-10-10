@@ -1,14 +1,14 @@
 public class HotAirBalloon extends AirTransportation{
 
-    private int balloonVolume;
+    private double balloonVolume;
 
-    public HotAirBalloon(String name, double cost, int capacity, double speed, boolean isRental, int balloonVolume){
+    public HotAirBalloon(String name, double cost, int capacity, double speed, boolean isRental, double balloonVolume){
         super(name, cost, capacity, speed, isRental);
         this.balloonVolume = balloonVolume;
     }
-    public int getBalloonVolume() {return balloonVolume;}
+    public double getBalloonVolume() {return balloonVolume;}
 
-    public void setBalloonVolume(int hasGears) {this.balloonVolume =  balloonVolume;}
+    public void setBalloonVolume(double hasGears) {this.balloonVolume =  balloonVolume;}
 
     @Override
     public String toString(){

@@ -14,7 +14,7 @@ public class Bus extends Automobile {
 
     @Override
     public String toString(){
-        return super.toString() + ", has " + numOfStops + " stops.";
+        return super.toString() + "Number of stops: " + numOfStops;
     }
 
 }
