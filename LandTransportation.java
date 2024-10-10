@@ -8,9 +8,10 @@ public class LandTransportation extends Transportation{
 
     }
 
+    // same string from super Transportation class
     @Override
     public String toString(){
-        return "Land Transportation: " + super.toString();
+        return super.toString();
     }
 
 }

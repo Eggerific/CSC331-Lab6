@@ -15,7 +15,7 @@ public class Submarine extends WaterTransportation{
     // toString method
     @Override
     public String toString(){
-        return super.toString() + " and is " + (isNuclearPowered ? "nuclear-powered" : "not nuclear-powered.");
+        return super.toString() + " and is " + (isNuclearPowered ? "nuclear-powered." : "not nuclear-powered.");
     }
 
 }

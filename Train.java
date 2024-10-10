@@ -12,7 +12,7 @@ public class Train extends LandTransportation{
 
     @Override
     public String toString(){
-        return super.toString() + "It has " + numCarriages + " carriages.";
+        return super.toString() + " It has " + numCarriages + " carriages.";
     }
 
 }

@@ -35,7 +35,9 @@ public class Transportation {
     // toString method for Super class
     @Override
     public String toString(){
-        return name + " costs" + cost + ", it holds " + capacity + "passengers," +
-                "has a speed of " + speed + "km/h, and is " + (isRental ? " available for rental" : "ticketed");
+        return name + " costs $" + cost +
+                ", and it holds " + capacity + " passenger(s)," +
+                " has a average speed of " + speed + " km/h, " +
+                "and is " + (isRental ? "available for rental." : "ticketed.");
     }
 }

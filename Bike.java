@@ -5,7 +5,7 @@ public class Bike extends LandTransportation {
     private boolean hasGears;
 
     // Constructor for Bike class
-    public Bike(String name, double cost, int capacity, double speed, boolean isRental, boolean isElectric){
+    public Bike(String name, double cost, int capacity, double speed, boolean isRental, boolean hasGears){
         super(name, cost, capacity, speed, isRental);
         this.hasGears = hasGears;
     }

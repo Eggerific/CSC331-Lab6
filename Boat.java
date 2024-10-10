@@ -9,7 +9,7 @@ public class Boat extends WaterTransportation{
 
     @Override
     public String toString(){
-        return super.toString() + "It is " + (isMotorized ? "motorized" : "not motorized") + ".";
+        return super.toString() + "It is " + (isMotorized ? "motorized." : "not motorized.");
     }
 
 }

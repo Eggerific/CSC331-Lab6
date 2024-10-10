@@ -2,7 +2,7 @@ public class Ship extends WaterTransportation{
 
     private int numberOfDecks;
 
-    public Ship(String name, double cost, int capacity, double speed, boolean isRental, boolean isMotorized, double tonnage){
+    public Ship(String name, double cost, int capacity, double speed, boolean isRental, int numberOfDecks){
         super(name, cost, capacity, speed, isRental);
         this.numberOfDecks = numberOfDecks;
     }
@@ -12,7 +12,7 @@ public class Ship extends WaterTransportation{
 
     @Override
     public String toString(){
-        return super.toString() + "It has " + numberOfDecks + " deck(s).";
+        return super.toString() + " It has " + numberOfDecks + " deck(s).";
     }
 
 }
