@@ -56,6 +56,7 @@ public class WTCEadieStewardEgge {
 
         // if else, check which transportation they chose
         // create separate instances for specific type
+        // LAND
         if (userChoice.equalsIgnoreCase("Bus")){
             // create instance using specific class
             selectedTransportType = new Bus("Bus", 50.00, 50, 60.00, false, 5);
@@ -69,7 +70,7 @@ public class WTCEadieStewardEgge {
         else if (userChoice.equalsIgnoreCase("Train")){
             selectedTransportType = new Train("Train", 10.00, 1, 100.00, false, 8);
         }
-
+        // AIR
         else if (userChoice.equalsIgnoreCase("Plane")){
             selectedTransportType = new Plane("Bike", 500.00, 150, 500.00, false, 130);
         }
@@ -82,7 +83,7 @@ public class WTCEadieStewardEgge {
         else if (userChoice.equalsIgnoreCase("Hot Air Balloon")){
             selectedTransportType = new HotAirBalloon("Hot Air Balloon", 150.00, 4, 10.00, true, 77000);
         }
-
+        // WATER
         else if (userChoice.equalsIgnoreCase("Boat")){
             selectedTransportType = new Boat("Boat", 100.00, 8, 40.00, true, true);
         }
@@ -92,8 +93,19 @@ public class WTCEadieStewardEgge {
         else if (userChoice.equalsIgnoreCase("Submarine")){
             selectedTransportType = new Submarine("Submarine", 500.00, 20, 25.00, true, true);
         }
+        else {
+            System.out.println("Invalid Choice.");
+        }
 
-        //System.out.println(selectedTransportType);
+        // USED TO TEST OUTPUTS
+        System.out.println(selectedTransportType);
+
+        //1.) Ask the user to verify that this is the mode of transportation they want to use.
+        //2.) Ask the user how many passengers need to travel using that mode of transportation.
+        //3.) Display the total cost.
+        //4.) Display travel instructions (what time their flight leaves, where they need to go to pick up a bike rental, etc.)
+        // IM SORRYY, feel free to mess with anything :(. I think I messed up with overriding strings and the classes. It works,
+        // but not exactly how she explained it in canvas.
 
     }
 }
