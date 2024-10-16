@@ -99,13 +99,14 @@ public class WTCEadieStewardEgge {
 
         // USED TO TEST OUTPUTS
         System.out.println(selectedTransportType);
+        assert selectedTransportType != null;
+        System.out.println(selectedTransportType.getName());
+        System.out.println(selectedTransportType.getCost());
 
         //1.) Ask the user to verify that this is the mode of transportation they want to use.
         //2.) Ask the user how many passengers need to travel using that mode of transportation.
         //3.) Display the total cost.
         //4.) Display travel instructions (what time their flight leaves, where they need to go to pick up a bike rental, etc.)
-        // IM SORRYY, feel free to mess with anything :(. I think I messed up with overriding strings and the classes. It works,
-        // but not exactly how she explained it in canvas.
-
+        // ______'instanceOf'_______
     }
 }
