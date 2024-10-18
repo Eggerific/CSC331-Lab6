@@ -72,7 +72,7 @@ public class WTCEadieStewardEgge {
         }
         // AIR
         else if (userChoice.equalsIgnoreCase("Plane")){
-            selectedTransportType = new Plane("Bike", 500.00, 150, 500.00, false, 130);
+            selectedTransportType = new Plane("Plane", 500.00, 150, 500.00, false, 130);
         }
         else if (userChoice.equalsIgnoreCase("Helicopter")){
             selectedTransportType = new Helicopter("Helicopter", 300.00, 5, 150.00, true, 5);
